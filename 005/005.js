@@ -7,7 +7,6 @@ let num = 1,
     found = false;
 
 while(found === false) {
-
   for(let i = minDivisor; i <= maxDivisor; i++) {
     if(num % i !== 0) {
       found = false;
